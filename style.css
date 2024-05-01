@@ -26,13 +26,10 @@
 }
 
 body, html {
-    background-color: var(--cor01);
+    background-color: black;
     height: 100vh;
     width: 100vw;
-    background-image: url(imagens/pattern01.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+   
 }
 
 main {
@@ -47,21 +44,27 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: black;
-    color: white;
+    background-color: white;
     width: 250px;
-    height: 3000px; 
+    height: 500px; 
     border-radius: 10px;
-    border: 1px solid white;
+    border: 1px solid var(--cor03);
     overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.329);
     /* essa config de overflow hidden é para esconder tudo que estiver fora da borda */
 }
 
 #login #imagem {
+    display: block;
     background: url(imagens/pattern01.jpg);
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     
+}
+
+#login #form {
+    padding: 10px;
+    display: block;
 }
