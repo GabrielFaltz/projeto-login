@@ -71,4 +71,9 @@ main {
 #login #form {
     padding: 10px;
     display: block;
+    text-align: center;
+}
+
+#form h1 {
+    margin: 10px;
 }
