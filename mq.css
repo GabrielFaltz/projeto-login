@@ -1,7 +1,44 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width:1100px) {
     #login {
-        width: 400px;
+        width: 60%;
+
+    }
+
+    #login #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    
+    #login #form {
+        float: right;
+        text-align: center;
+        width: 50%;
+        
+    }
+    
+}
+
+@media screen and (min-width: 1100px) {
+    #login {
+        width: 650px;
+
+    }
+
+    #login #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #login #form {
+        float: right;
+        width: %;
+        text-align: center;
     }
 }
+
+
+/* Para passar uma div para direita ou esquerda é só botar float:left ou right */
